@@ -141,6 +141,7 @@ public class Main {
             lines.forEach(line -> builder.append(line));
         } catch (Exception ex) {
             ex.printStackTrace();
+            System.out.println();
         }
         return builder.toString();
     }
